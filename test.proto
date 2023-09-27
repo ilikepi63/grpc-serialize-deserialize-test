@@ -1,0 +1,10 @@
+syntax="proto3";
+
+package test;
+
+message Empty{}
+
+message TestMessage{
+    string name = 1;
+    string id = 2;
+}
